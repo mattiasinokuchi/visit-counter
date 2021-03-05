@@ -1,7 +1,7 @@
 const display = document.querySelector("span");
 
 function getCount() {
-  fetch("/the-count").then(function(response) {
+  fetch("/.netlify/functions/visits-get").then(function(response) {
     return response.json()
   }).then(function(data) {
     display.textContent = data.count;
