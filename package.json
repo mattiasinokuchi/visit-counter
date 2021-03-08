@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mattiasinokuchi/visit-counter/issues"
   },
-  "homepage": "https://github.com/mattiasinokuchi/visit-counter#readme"
+  "homepage": "https://github.com/mattiasinokuchi/visit-counter#readme",
+  "dependencies": {
+    "fauna-shell": "^0.12.3"
+  }
 }
